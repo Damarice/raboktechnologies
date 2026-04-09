@@ -61,11 +61,11 @@ const SingleServiceSection = () => {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="tekup-service-contact" style={{backgroundImage:"url(/images/service/bg.png)"}}>
+                            <div className="tekup-service-contact" style={{background:"linear-gradient(135deg, #1a0a2e 0%, #7B2FBE 100%)", backgroundImage:"none"}}>
                                 <img src="/images/service/icon.png" alt="" />
                                 <h3>Ready to unlock your data?</h3>
                                 <p>Book a free strategy call with one of our senior BI consultants — no obligation.</p>
-                                <Link className="tekup-default-btn tekup-white-btn" href="contact-us">Book Free Call <i className="ri-arrow-right-up-line"></i></Link>
+                                <Link className="tekup-default-btn tekup-white-btn" href="/contact-us">Book Free Call <i className="ri-arrow-right-up-line"></i></Link>
                             </div>
                         </div>
                     </div>
