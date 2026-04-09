@@ -1,37 +1,12 @@
 import Link from "next/link";
 import servicesData from "~/db/servicesData";
+import PageHeader from "~/components/Section/Common/PageHeader";
 
 const ServiceDetailSection = ({ service }) => {
     return (
         <>
-            {/* Page hero */}
-            <div style={{
-                position: "relative",
-                overflow: "hidden",
-                marginTop: "130px",
-            }}>
-                <div style={{
-                    position: "absolute", inset: 0,
-                    backgroundImage: `url('${service.heroImage}')`,
-                    backgroundSize: "cover", backgroundPosition: "center", zIndex: 0,
-                }} />
-                <div style={{
-                    position: "absolute", inset: 0,
-                    background: "linear-gradient(135deg, rgba(26,10,46,0.88) 0%, rgba(123,47,190,0.75) 100%)",
-                    zIndex: 1,
-                }} />
-                <div className="container" style={{ position: "relative", zIndex: 2, padding: "60px 0" }}>
-                    <nav style={{ marginBottom: "12px" }}>
-                        <Link href="/" style={{ color: "rgba(255,255,255,0.65)", fontSize: "16px" }}>Home</Link>
-                        <span style={{ color: "rgba(255,255,255,0.4)", margin: "0 8px" }}>/</span>
-                        <Link href="/service" style={{ color: "rgba(255,255,255,0.65)", fontSize: "16px" }}>Services</Link>
-                        <span style={{ color: "rgba(255,255,255,0.4)", margin: "0 8px" }}>/</span>
-                        <span style={{ color: "#ffffff", fontSize: "16px" }}>{service.title}</span>
-                    </nav>
-                    <h1 style={{ color: "#ffffff", fontSize: "48px", lineHeight: "1.15em", maxWidth: "700px" }}>{service.title}</h1>
-                    <p style={{ color: "rgba(255,255,255,0.82)", fontSize: "20px", maxWidth: "600px", marginTop: "16px" }}>{service.subtitle}</p>
-                </div>
-            </div>
+            {/* Uses the same PageHeader as all other pages — consistent look */}
+            <PageHeader title={service.title} bgImage={service.heroImage} />
 
             {/* Main content */}
             <div className="section tekup-section-padding">
@@ -48,7 +23,8 @@ const ServiceDetailSection = ({ service }) => {
                                     />
                                 </div>
                                 <div className="tekup-service-details-item">
-                                    <h3>Overview</h3>
+                                    <h3>{service.title}</h3>
+                                    <p style={{ color: "#7B2FBE", fontWeight: "500", marginBottom: "16px" }}>{service.subtitle}</p>
                                     <p>{service.overview}</p>
                                     <p>{service.detail}</p>
                                 </div>
@@ -81,10 +57,13 @@ const ServiceDetailSection = ({ service }) => {
                                     <h5 style={{ padding: "16px 20px", borderBottom: "1px solid #eee", marginBottom: 0 }}>All Services</h5>
                                     <ul>
                                         {servicesData.map((s) => (
-                                            <li key={s.slug} style={{ fontWeight: s.slug === service.slug ? "700" : "400" }}>
+                                            <li key={s.slug}>
                                                 <Link
                                                     href={`/services/${s.slug}`}
-                                                    style={{ color: s.slug === service.slug ? "#7B2FBE" : "inherit" }}
+                                                    style={{
+                                                        color: s.slug === service.slug ? "#7B2FBE" : "inherit",
+                                                        fontWeight: s.slug === service.slug ? "700" : "400",
+                                                    }}
                                                 >
                                                     {s.title} <i className="ri-arrow-right-up-line"></i>
                                                 </Link>
