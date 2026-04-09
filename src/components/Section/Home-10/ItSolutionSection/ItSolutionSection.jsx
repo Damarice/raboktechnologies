@@ -26,7 +26,7 @@ const ItSolutionSection = () => {
                                 </ul>
                             </div>
                             <div className="tekup-extra-mt">
-                                <Link className="tekup-default-btn" href="about-us">See How We Work <i className="ri-arrow-right-up-line"></i></Link>
+                                <Link className="tekup-default-btn" href="/about-us">See How We Work <i className="ri-arrow-right-up-line"></i></Link>
                             </div>
                         </div>
                     </div>

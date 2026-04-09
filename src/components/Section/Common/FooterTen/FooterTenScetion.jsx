@@ -92,11 +92,11 @@ const FooterTenScetion = () => {
                     <h5>Quick Links</h5>
                   </div>
                   <ul>
-                    <li><Link href="about-us">About Us</Link></li>
-                    <li><Link href="service">Services</Link></li>
-                    <li><Link href="pricing">Pricing</Link></li>
-                    <li><Link href="blog">Blog</Link></li>
-                    <li><Link href="contact-us">Contact Us</Link></li>
+                    <li><Link href="/about-us">About Us</Link></li>
+                    <li><Link href="/service">Services</Link></li>
+                    <li><Link href="/pricing">Pricing</Link></li>
+                    <li><Link href="/blog">Blog</Link></li>
+                    <li><Link href="/contact-us">Contact Us</Link></li>
                   </ul>
                 </div>
               </div>

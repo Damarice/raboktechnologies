@@ -115,7 +115,7 @@ const HeaderTwo = ({className}) => {
                                 </div>
                                 <ul className="site-menu-main" onClick={menuMainClickHandler}>
                                     <li className="nav-item"><Link href="/" className="nav-link-item">Home</Link></li>
-                                    <li className="nav-item"><Link href="about-us" className="nav-link-item">About Us</Link></li>
+                                    <li className="nav-item"><Link href="/about-us" className="nav-link-item">About Us</Link></li>
                                     <li className="nav-item nav-item-has-children">
                                         <Link href="#" className="nav-link-item drop-trigger">Services <i className="ri-arrow-down-s-line"></i></Link>
                                         <ul className="sub-menu" id="submenu-1">
@@ -127,9 +127,9 @@ const HeaderTwo = ({className}) => {
                                             <li className="sub-menu--item"><Link href="/services/predictive-analytics"><span className="menu-item-text">Predictive Analytics</span></Link></li>
                                         </ul>
                                     </li>
-                                    <li className="nav-item"><Link href="pricing" className="nav-link-item">Pricing</Link></li>
-                                    <li className="nav-item"><Link href="blog" className="nav-link-item">Blog</Link></li>
-                                    <li className="nav-item"><Link href="contact-us" className="nav-link-item">Contact Us</Link></li>
+                                    <li className="nav-item"><Link href="/pricing" className="nav-link-item">Pricing</Link></li>
+                                    <li className="nav-item"><Link href="/blog" className="nav-link-item">Blog</Link></li>
+                                    <li className="nav-item"><Link href="/contact-us" className="nav-link-item">Contact Us</Link></li>
                                 </ul>
                             </nav>
                         </div>
@@ -138,7 +138,7 @@ const HeaderTwo = ({className}) => {
                                 <div className="tekup-header-search" onClick={() => setSearchBar(true)}>
                                     <i className="ri-search-line"></i>
                                 </div>
-                                <Link className="tekup-default-btn tekup-header-btn" href="contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
+                                <Link className="tekup-default-btn tekup-header-btn" href="/contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
                             </div>
                         </div>
                         <div className="mobile-menu-trigger" onClick={menuTriggerClickHandler}><span></span></div>
