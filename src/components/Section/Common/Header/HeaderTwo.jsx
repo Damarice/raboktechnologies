@@ -119,10 +119,12 @@ const HeaderTwo = ({className}) => {
                                     <li className="nav-item nav-item-has-children">
                                         <Link href="#" className="nav-link-item drop-trigger">Services <i className="ri-arrow-down-s-line"></i></Link>
                                         <ul className="sub-menu" id="submenu-1">
-                                            <li className="sub-menu--item"><Link href="service"><span className="menu-item-text">Business Intelligence</span></Link></li>
-                                            <li className="sub-menu--item"><Link href="service"><span className="menu-item-text">Data Analytics</span></Link></li>
-                                            <li className="sub-menu--item"><Link href="service"><span className="menu-item-text">Data Strategy</span></Link></li>
-                                            <li className="sub-menu--item"><Link href="service"><span className="menu-item-text">Dashboards & Reporting</span></Link></li>
+                                            <li className="sub-menu--item"><Link href="/services/business-intelligence"><span className="menu-item-text">Business Intelligence</span></Link></li>
+                                            <li className="sub-menu--item"><Link href="/services/data-analytics"><span className="menu-item-text">Data Analytics</span></Link></li>
+                                            <li className="sub-menu--item"><Link href="/services/data-strategy"><span className="menu-item-text">Data Strategy</span></Link></li>
+                                            <li className="sub-menu--item"><Link href="/services/dashboards-reporting"><span className="menu-item-text">Dashboards & Reporting</span></Link></li>
+                                            <li className="sub-menu--item"><Link href="/services/data-warehousing"><span className="menu-item-text">Data Warehousing & ETL</span></Link></li>
+                                            <li className="sub-menu--item"><Link href="/services/predictive-analytics"><span className="menu-item-text">Predictive Analytics</span></Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item"><Link href="pricing" className="nav-link-item">Pricing</Link></li>

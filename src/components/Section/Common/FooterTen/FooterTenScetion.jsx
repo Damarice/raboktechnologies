@@ -106,11 +106,11 @@ const FooterTenScetion = () => {
                     <h5>Services</h5>
                   </div>
                   <ul>
-                    <li><Link href="service">Business Intelligence</Link></li>
-                    <li><Link href="service">Data Analytics</Link></li>
-                    <li><Link href="service">Data Strategy</Link></li>
-                    <li><Link href="service">Dashboard & Reporting</Link></li>
-                    <li><Link href="service">Predictive Analytics</Link></li>
+                    <li><Link href="/services/business-intelligence">Business Intelligence</Link></li>
+                    <li><Link href="/services/data-analytics">Data Analytics</Link></li>
+                    <li><Link href="/services/data-strategy">Data Strategy</Link></li>
+                    <li><Link href="/services/dashboards-reporting">Dashboard & Reporting</Link></li>
+                    <li><Link href="/services/predictive-analytics">Predictive Analytics</Link></li>
                   </ul>
                 </div>
               </div>

@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
 import BlogCardNine from "~/components/Ui/Cards/BlogCardNine";
-import blog from '~/db/blogCardNine.json'
+import blog from '~/db/BlogCardNine.json'
 const RecentBlogSection = () => {
     return (
         <div className="section bg-light1 tekup-section-padding2">

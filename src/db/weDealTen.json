@@ -3,48 +3,48 @@
         "icon": "/images/iconbox/icon1.png",
         "title": "Business Intelligence",
         "description": "Get a clear, real-time view of your business performance — so you can act fast and with confidence.",
-        "link": "service"
+        "link": "/services/business-intelligence"
     },
     {
         "icon": "/images/iconbox/icon2.png",
         "title": "Data Analytics",
         "description": "Uncover the trends and patterns in your data that reveal exactly where to grow and where to cut.",
-        "link": "service"
+        "link": "/services/data-analytics"
     },
     {
         "icon": "/images/iconbox/icon3.png",
         "title": "Data Strategy",
         "description": "Build a roadmap that turns your data into a long-term competitive advantage — not just a reporting tool.",
-        "link": "service"
+        "link": "/services/data-strategy"
     },
     {
         "icon": "/images/iconbox/icon4.png",
         "title": "Dashboards & Reporting",
         "description": "Custom dashboards your team will actually use — clear, visual, and updated in real time.",
-        "link": "service"
+        "link": "/services/dashboards-reporting"
     },
     {
         "icon": "/images/iconbox/icon5.png",
         "title": "Data Warehousing",
         "description": "Bring all your data sources together in one place, so you stop working from conflicting spreadsheets.",
-        "link": "service"
+        "link": "/services/data-warehousing"
     },
     {
         "icon": "/images/iconbox/icon6.png",
         "title": "Predictive Analytics",
         "description": "Know what is coming before it happens — forecast demand, churn, and revenue with confidence.",
-        "link": "service"
+        "link": "/services/predictive-analytics"
     },
     {
         "icon": "/images/iconbox/icon7.png",
         "title": "Data Governance",
         "description": "Ensure your data is accurate, secure, and compliant — so every decision is built on a solid foundation.",
-        "link": "service"
+        "link": "/services/data-strategy"
     },
     {
         "icon": "/images/iconbox/icon8.png",
         "title": "ETL & Integration",
         "description": "Connect your tools, platforms, and databases seamlessly — no more manual exports or data silos.",
-        "link": "service"
+        "link": "/services/data-warehousing"
     }
 ]
