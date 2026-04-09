@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Business Intelligence",
+    "icon": "/images/iconbox/icon1.png",
+    "description": "Get a real-time, unified view of your business performance. We design BI environments that give your leadership team the clarity to act fast and with confidence."
+  },
+  {
+    "id": 2,
+    "title": "Data Analytics Consulting",
+    "icon": "/images/iconbox/icon2.png",
+    "description": "Go beyond surface-level reports. Our analysts dig deep to surface the trends and patterns that reveal exactly where to grow and where to cut."
+  },
+  {
+    "id": 3,
+    "title": "Data Strategy & Roadmap",
+    "icon": "/images/iconbox/icon3.png",
+    "description": "We build you a clear, actionable data strategy that turns your data into a long-term competitive advantage — not just a reporting tool."
+  },
+  {
+    "id": 4,
+    "title": "Dashboards & Reporting",
+    "icon": "/images/iconbox/icon4.png",
+    "description": "Custom interactive dashboards your team will actually use — clear, visual, and updated in real time on Power BI, Tableau, or Looker."
+  }
+]
