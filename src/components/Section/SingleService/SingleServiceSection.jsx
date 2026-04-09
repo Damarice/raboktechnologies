@@ -61,11 +61,27 @@ const SingleServiceSection = () => {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="tekup-service-contact" style={{background:"linear-gradient(135deg, #1a0a2e 0%, #7B2FBE 100%)", backgroundImage:"none"}}>
-                                <img src="/images/service/icon.png" alt="" />
-                                <h3>Ready to unlock your data?</h3>
-                                <p>Book a free strategy call with one of our senior BI consultants — no obligation.</p>
-                                <Link className="tekup-default-btn tekup-white-btn" href="/contact-us">Book Free Call <i className="ri-arrow-right-up-line"></i></Link>
+                            <div style={{
+                                marginTop: "50px",
+                                padding: "40px 30px",
+                                borderRadius: "12px",
+                                background: "linear-gradient(135deg, #1a0a2e 0%, #7B2FBE 100%)",
+                            }}>
+                                <i className="ri-bar-chart-2-line" style={{fontSize:"36px", color:"#c084fc", marginBottom:"16px", display:"block"}}></i>
+                                <h3 style={{color:"#ffffff", fontSize:"28px", lineHeight:"1.2", marginBottom:"12px"}}>Ready to unlock your data?</h3>
+                                <p style={{color:"rgba(255,255,255,0.75)", fontSize:"16px", lineHeight:"1.6", marginBottom:"32px"}}>Book a free strategy call with one of our senior BI consultants — no obligation.</p>
+                                <Link href="/contact-us" style={{
+                                    display:"inline-flex",
+                                    alignItems:"center",
+                                    gap:"8px",
+                                    background:"#ffffff",
+                                    color:"#1a0a2e",
+                                    fontWeight:"600",
+                                    fontSize:"15px",
+                                    padding:"14px 24px",
+                                    borderRadius:"8px",
+                                    textDecoration:"none"
+                                }}>Book Free Call <i className="ri-arrow-right-up-line"></i></Link>
                             </div>
                         </div>
                     </div>

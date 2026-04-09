@@ -23,7 +23,7 @@ const HeroSection = () => {
             <div className="container" style={{ position: "relative", zIndex: 2 }}>
                 <div className="row">
                     <div className="col-lg-6">
-                        <div className="tekup-hero-content">
+                        <div className="tekup-hero-content" style={{ textAlign: "left" }}>
                             <h1 style={{ color: "#ffffff", lineHeight: "1.1" }}>
                                 Stop Guessing.<br />
                                 <span style={{ color: "#a855f7" }}>Start Deciding</span><br />
@@ -34,8 +34,8 @@ const HeroSection = () => {
                                 Rabok Technologies transforms your raw data into clear, confident decisions — so you grow faster, waste less, and stay ahead of the competition.
                             </p>
 
-                            <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", marginBottom: "40px" }}>
-                                <Link className="tekup-default-btn" href="contact-us">
+                            <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", marginBottom: "40px", justifyContent: "flex-start" }}>
+                                <Link className="tekup-default-btn" href="contact-us" style={{ display: "inline-flex", width: "auto" }}>
                                     Get Your Free Consultation <i className="ri-arrow-right-up-line"></i>
                                 </Link>
                                 <Link href="services" style={{
@@ -59,7 +59,7 @@ const HeroSection = () => {
                                     ))}
                                 </div>
                                 <span style={{ color: "rgba(255,255,255,0.55)", fontSize: "14px" }}>
-                                    Trusted by businesses to deliver insights that move the needle
+                                    Helping businesses make smarter decisions with data
                                 </span>
                             </div>
                         </div>
